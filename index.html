@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Portfolio</title>
+  <meta name="description" content="Academic portfolio: research, publications, experience, and contact." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="assets/img/logo.svg" alt="Your Name" height="32" />
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/research.html">Research</a></li>
+        <li><a href="pages/experience.html">Experience</a></li>
+        <li><a href="pages/prospective.html">Prospective</a></li>
+        <li><a href="pages/lab.html">Lab</a></li>
+        <li><a href="pages/cv.html" class="pill">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Hi, this is</p>
+          <h1>Your Name</h1>
+          <p class="subtitle">DATA SCIENTIST · ML / COMPUTER VISION RESEARCHER</p>
+
+          <p class="lead">
+            I am a <strong>[Your Title]</strong> in <strong>[Your Department]</strong> at <strong>[Your Institution]</strong>. I build machine learning
+            methods for <strong>biomedical imaging</strong> and <strong>time-series signals</strong> (e.g., FF-OCT, PPG, NIR spectroscopy), with an
+            emphasis on robust modeling and practical deployment.
+          </p>
+
+          <p class="lead">
+            My work integrates experimentation, data engineering, and deep learning to deliver trustworthy systems for
+            healthcare applications.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="pages/research.html">See research</a>
+            <a class="btn ghost" href="pages/about.html">More about me</a>
+          </div>
+
+          <p class="openings">
+            <strong>[Openings]</strong>: I’m happy to connect with collaborators and students interested in
+            <em>medical imaging, computer vision, and ML for health</em>. See <a href="pages/prospective.html">Prospective</a>.
+          </p>
+        </div>
+
+        <div class="card portrait" role="img" aria-label="Profile image">
+          <img src="assets/img/profile-placeholder.svg" alt="Portrait placeholder" />
+          <div class="portrait-links">
+            <a href="#" aria-label="Email">Email</a>
+            <a href="#" aria-label="Google Scholar">Scholar</a>
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Highlights</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Research</h3>
+            <p>ML for biomedical imaging (segmentation, enhancement), and physiological signals (PPG / NIR).</p>
+          </article>
+          <article class="card">
+            <h3>Engineering</h3>
+            <p>Python, SQL, cloud workflows, reproducible pipelines, and model evaluation at scale.</p>
+          </article>
+          <article class="card">
+            <h3>Impact</h3>
+            <p>Healthcare applications: decision support, monitoring, and computer-assisted diagnosis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Selected work</h2>
+        <p class="muted">Replace these placeholders with your papers/projects. Add PDF / code links if available.</p>
+
+        <div class="pub-list">
+          <article class="pub">
+            <div class="pub-thumb" aria-hidden="true"></div>
+            <div>
+              <h3>Project / Paper Title 1</h3>
+              <p class="pub-meta">Authors · Venue (Year)</p>
+              <p class="pub-desc">One sentence describing the contribution and why it matters.</p>
+              <p class="pub-links"><a href="#">PDF</a> · <a href="#">Code</a></p>
+            </div>
+          </article>
+
+          <article class="pub">
+            <div class="pub-thumb" aria-hidden="true"></div>
+            <div>
+              <h3>Project / Paper Title 2</h3>
+              <p class="pub-meta">Authors · Venue (Year)</p>
+              <p class="pub-desc">One sentence describing the contribution and why it matters.</p>
+              <p class="pub-links"><a href="#">PDF</a> · <a href="#">Code</a></p>
+            </div>
+          </article>
+
+          <article class="pub">
+            <div class="pub-thumb" aria-hidden="true"></div>
+            <div>
+              <h3>Project / Paper Title 3</h3>
+              <p class="pub-meta">Authors · Venue (Year)</p>
+              <p class="pub-desc">One sentence describing the contribution and why it matters.</p>
+              <p class="pub-links"><a href="#">PDF</a> · <a href="#">Code</a></p>
+            </div>
+          </article>
+        </div>
+
+        <div class="center">
+          <a class="btn ghost" href="pages/research.html">View all research</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p>Copyright © <span id="year"></span> Your Name. All rights reserved.</p>
+      <a class="top" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
